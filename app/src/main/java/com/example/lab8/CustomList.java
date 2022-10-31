@@ -80,6 +80,7 @@ public class CustomList extends ArrayAdapter<City> {
      * This is a candidate to delete
      */
     public void delete(City city){
+        cities.remove(city);
     }
 
 }
